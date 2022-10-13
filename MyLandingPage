@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+
+
+    </style>
+<title>Ryan Hood's Landing Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="text-right"></nav>
+        <Ul>
+    <li> <a href="https://github.com/ryanhood10?tab=projects"> My Projects </a></li>
+    <li> <a href="https://github.com/"> GitHub </a> </li>
+    <li> <a href="#contact"> Contact </a> </li>
+</Ul>
+
+    </header>
+
+    <main>
+<h1 class="text-center">Ryan Hood's Webpage</h1>
+<br>
+<p> Welcome to my webpage! From the top links you can connect with me on GitHub! Below is my favorite dinosaur!
+     <br> 
+    From the bottom, I have a contact forum where you can reach out to me!
+ </p>
+
+ <figure>
+<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jurassic-park-velociraptor-1589288734.jpg" alt="Graphic with Raptors" height="400">
+<figcaption class="text-right"> The velociraptor is a scary creature! </figcaption>
+</figure>
+<hr>
+<section id="contact">
+<h2>Contact Me!</h2>
+  <form>
+    <ul>
+        <li>
+            <label class="text-right" for="name"> Name:</label>
+            <input type="text" id="name" name="user-name">
+        </li>
+        <li>
+             <label class="text-right" for="Email"> Email:</label>
+        <input type="text" id="Email" name="user=email">
+        </li>
+    </ul>
+<button type="submit">SEND </button>
+</main>
+
+<footer class="text-center">
+    Page produced by Ryan Hood
+</footer>
+
+  </form>
